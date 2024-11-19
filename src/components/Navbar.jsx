@@ -32,7 +32,7 @@ export const Navbar = () => {
         </div>
 
         {/* Social Icons and Call Section */}
-        <div className="hidden md:flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-4 ml-4">
           <a href="hhttps://www.linkedin.com/company/devta-gensets-private-limited/about/" className="text-blue-600 text-2xl hover:text-blue-800 transition">
             <FaFacebookF />
           </a>

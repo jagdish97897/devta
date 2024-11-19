@@ -36,6 +36,7 @@ import dev3 from "../resource/dev3.png";
 
 import pusparaj from "../resource/pusparaj.png";
 import devrana from "../resource/devrana.png";
+import braham from "../resource/braham.jpg";
 import devprakash from "../resource/devprakash.jpg";
 import brahamrana from "../resource/brahamrana.png";
 
@@ -429,7 +430,7 @@ export const Home = () => {
         <div className="mt-8 flex flex-col md:flex-row justify-center items-center mb-6 space-y-6 md:space-y-0 md:space-x-4">
           {/* Image container */}
           <img
-            src={brahamrana}
+            src={braham}
             alt="Mr. Braham Rana"
             className="w-48 h-48 rounded-full object-cover shadow-lg"
           />

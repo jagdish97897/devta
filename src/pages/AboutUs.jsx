@@ -28,6 +28,7 @@ import coconstructionSite from "../resource/construction_sites.jpeg";
 import factoryImage from "../resource/factory image.jpg";
 import mall from "../resource/mall.jpg";
 import hospital from "../resource/hospital.jpg";
+import braham from "../resource/braham.jpg";
 
 
 import pusparaj from "../resource/pusparaj.png";
@@ -300,7 +301,7 @@ export const AboutUs = () => {
         <div className="mt-8 flex flex-col md:flex-row justify-center items-center mb-6 space-y-6 md:space-y-0 md:space-x-4">
           {/* Image container */}
           <img
-            src={brahamrana}
+            src={braham}
             alt="Mr. Braham Rana"
             className="w-48 h-48 rounded-full object-cover shadow-lg"
           />
