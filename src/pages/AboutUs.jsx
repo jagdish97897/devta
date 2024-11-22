@@ -48,7 +48,7 @@ export const AboutUs = () => {
 
   return (
     <div className="w-screen bg-gradient-to-b from-white to-white">
-      
+
 <div className="relative min-h-screen pt-24 bg-blue-400">
   {/* Background Image */}
   <div
@@ -57,7 +57,7 @@ export const AboutUs = () => {
   ></div>
 
   {/* Header Section */}
-  <header className="relative z-10 text-center mb-6 px-4">
+  <header className="relative z-10 text-center mb-0 px-4">
     <h1
       className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold"
       style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}
@@ -65,7 +65,7 @@ export const AboutUs = () => {
       ABOUT US
     </h1>
     <h2
-      className="text-sm sm:text-base md:text-lg lg:text-xl text-white font-semibold mt-8 sm:mt-12 md:mt-20"
+      className="text-sm sm:text-base md:text-lg lg:text-xl text-white font-semibold mt-8 sm:mt-12 md:mt-20 px-4 sm:px-8 md:px-16"
       style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}
     >
       Devta Gensets Private Limited has been at the forefront of providing world-class power solutions for over three decades. We specialize in the sales, rental, and service of high-performance diesel and gas generators, ranging from 125 kVA to 2500 kVA, catering to a wide range of industries, businesses, and residential needs. Our goal is to ensure uninterrupted energy supply for our clients, allowing them to focus on what matters most—growing their businesses and achieving their goals.
@@ -73,20 +73,20 @@ export const AboutUs = () => {
   </header>
 
   {/* Benefits Section */}
-  <section className="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12 mt-8 sm:mt-12 px-4 lg:px-24">
-    <div className="bg-white bg-opacity-30 backdrop-blur-md p-4 sm:p-6 rounded-lg shadow-lg border border-transparent transform transition duration-500 hover:scale-105 hover:border-blue-600 hover:shadow-2xl">
+  <section className="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-0 sm:mt-0 px-4 lg:px-24">
+    <div className="bg-white bg-opacity-30 backdrop-blur-md p-4 sm:p-6 rounded-lg shadow-lg border border-transparent transform transition duration-500 hover:scale-105 hover:border-blue-600 hover:shadow-2xl mt-2">
       <h2 className="text-md sm:text-lg md:text-xl font-bold text-blue-600 mb-2 sm:mb-4">Who Are We</h2>
       <p className="text-white text-xs sm:text-sm md:text-base">
         Devta Gensets Private Limited is a leading provider of power solutions with over three decades of experience in the industry. Established in 1991, we have built a strong reputation for excellence, reliability, and customer satisfaction. Our dedicated team of professionals is committed to delivering high-performance generators and tailored services to meet the unique energy requirements of our clients.
       </p>
     </div>
-    <div className="bg-white bg-opacity-30 backdrop-blur-md p-4 sm:p-6 rounded-lg shadow-lg border border-transparent transform transition duration-500 hover:scale-105 hover:border-blue-600 hover:shadow-2xl">
+    <div className="bg-white bg-opacity-30 backdrop-blur-md p-4 sm:p-6 rounded-lg shadow-lg border border-transparent transform transition duration-500 hover:scale-105 hover:border-blue-600 hover:shadow-2xl mt-2">
       <h2 className="text-md sm:text-lg md:text-xl font-bold text-blue-600 mb-2 sm:mb-4">Our Mission</h2>
       <p className="text-white text-xs sm:text-sm md:text-base">
         At Devta Gensets Private Limited, our mission is to transform lives and support progress by providing high-quality, efficient generators. We are dedicated to delivering exceptional service and fostering long-term relationships, driven by a commitment to excellence and a passion for enhancing the well-being of society through reliable power solutions.
       </p>
     </div>
-    <div className="bg-white bg-opacity-30 backdrop-blur-md p-4 sm:p-6 rounded-lg shadow-lg border border-transparent transform transition duration-500 hover:scale-105 hover:border-blue-600 hover:shadow-2xl">
+    <div className="bg-white bg-opacity-30 backdrop-blur-md p-4 sm:p-6 rounded-lg shadow-lg border border-transparent transform transition duration-500 hover:scale-105 hover:border-blue-600 hover:shadow-2xl mt-2">
       <h2 className="text-md sm:text-lg md:text-xl font-bold text-blue-600 mb-2 sm:mb-4">What We Do</h2>
       <p className="text-white text-xs sm:text-sm md:text-base">
         We specialize in providing comprehensive power solutions tailored to meet diverse energy needs. Our services include the rental and sale of high-quality diesel and gas generators, ranging from 125 kVA to 2500 kVA, ensuring reliable power for industrial, commercial, and residential applications. We pride ourselves on delivering exceptional customer service, timely installations, and maintenance support.
@@ -95,24 +95,24 @@ export const AboutUs = () => {
   </section>
 </div>
 
-      <div className="bg-black py-12 px-6">
-      {/* Container */}
-      <div className="max-w-7xl mx-auto text-center">
-        {/* Heading */}
-        <h2 className="text-4xl font-extrabold text-blue-700 mb-4">
-          About Devta Gensets
-        </h2>
-        <p className="text-xl text-white mb-8">
-          Devta Gensets Private Limited is a leading provider of power solutions,
-          committed to delivering high-quality generators for industrial,
-          commercial, and residential use. With a strong focus on innovation and
-          customer satisfaction, we offer a range of rental, purchase, and sales
-          options for reliable power solutions.
-        </p>
-       
-      </div> 
-      <MissionVision/>
-    </div>
+<div className="bg-black py-12 px-6 mt-0">
+  {/* Container */}
+  <div className="max-w-7xl mx-auto text-center">
+    {/* Heading */}
+    <h2 className="text-4xl font-extrabold text-blue-700 mb-4">
+      About Devta Gensets
+    </h2>
+    <p className="text-xl text-white mb-8">
+      Devta Gensets Private Limited is a leading provider of power solutions,
+      committed to delivering high-quality generators for industrial,
+      commercial, and residential use. With a strong focus on innovation and
+      customer satisfaction, we offer a range of rental, purchase, and sales
+      options for reliable power solutions.
+    </p>
+  </div> 
+  <MissionVision />
+</div>
+
 
       <div className="bg-black py-12 px-6">
       {/* Container */}
@@ -292,7 +292,7 @@ export const AboutUs = () => {
 
         {/* Subheading Text */}
         <div className="text-lg text-white text-center mb-8 max-w-2xl">
-          Meet our leader, Braham Rana, driving innovation at Devta Gensets. Discover the benefits of our services and how they can make a positive impact on your life.
+          Meet our leader, Braham Rana & Dev Prakash Rana, driving innovation at Devta Gensets. Discover the benefits of our services and how they can make a positive impact on your life.
         </div>
 
         {/* Braham Rana Section */}

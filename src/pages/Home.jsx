@@ -313,7 +313,6 @@ export const Home = () => {
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
             <h4 className="font-bold mb-2">1500 kVA Cummins Diesel Generator</h4>
-
           </div>
 
           {/* Card 4 */}

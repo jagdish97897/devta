@@ -131,11 +131,9 @@ export const Service = () => {
             SERVICES WE PROVIDE
           </h1>
           <h2
-            className="text-base sm:text-lg md:text-xl text-white font-semibold mt-8 sm:mt-10 md:mt-20"
-            style={{
-              textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)",
-            }}
-          >
+      className="text-sm sm:text-base md:text-lg lg:text-xl text-white font-semibold mt-8 sm:mt-12 md:mt-20 px-4 sm:px-8 md:px-16"
+      style={{ textShadow: "2px 2px 4px black, 4px 4px 6px rgba(0, 0, 0, 0.6)" }}
+    >
             We provide comprehensive power solutions tailored to meet your energy needs.
             Whether you're seeking reliable backup power for your business, industrial site,
             or residential property, our expert team ensures you get the right solution for
