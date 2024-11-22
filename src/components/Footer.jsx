@@ -52,6 +52,7 @@ export const Footer = () => {
           <p className="text-sm">
             373 Village Shahbad Daulatpur North West Delhi New Delhi - 110042, Delhi, India
           </p>
+          <p className="text-sm">devtagensets@rediffmail.com</p>
           <p className="text-sm">support@devtagensets.com</p>
           <p className="text-sm">+91-9999966177</p>
           <p className="text-sm">+91-9999966155</p>

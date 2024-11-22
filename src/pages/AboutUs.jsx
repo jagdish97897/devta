@@ -49,8 +49,7 @@ export const AboutUs = () => {
   return (
     <div className="w-screen bg-gradient-to-b from-white to-white">
       
-
-<div className="relative min-h-screen bg-blue-400">
+<div className="relative min-h-screen pt-24 bg-blue-400">
   {/* Background Image */}
   <div
     className="absolute inset-0 bg-cover bg-center z-0"
@@ -95,7 +94,6 @@ export const AboutUs = () => {
     </div>
   </section>
 </div>
-
 
       <div className="bg-black py-12 px-6">
       {/* Container */}
@@ -380,86 +378,7 @@ export const AboutUs = () => {
       </div>
 
 <BusinessBook />
-            
-{/* <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
 
-  <div className="font-extrabold text-4xl md:text-5xl text-blue-700 text-center mb-4"
-    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}>
- "About Devta Gensets Private Limited"
-  </div>
-  
-
-  <div className="text-lg text-white text-center mb-8 max-w-2xl">
-  Meet Our Leader Braham Rana, Driving Innovation at Devta Gensets discover the benefits of our services and how they can improve your life. 
-    Here are some key benefits that make us stand out.
-  </div>
-
-
-<div className="mt-4">
-    <div className="flex justify-center mb-6">
-        <img
-          src={devrana}
-          alt="Mr. Dev Rana"
-          className="w-48 h-48 rounded-full object-cover shadow-lg"
-        />
-      </div>
-      <div className="text-center">
-        <h3 className="text-2xl font-bold text-white">Mr. Dev Rana</h3>
-        <p className="text-white text-lg mb-4">CEO</p>
-        <p className="text-white text-md mb-4">Dev Prakash Rana is the CEO and Director of DEVTA GENSETS PRIVATE LIMITED, bringing visionary leadership and extensive expertise in the power solutions industry. Under his guidance, the company has grown to provide reliable, high-quality energy solutions. His dedication to innovation and operational excellence drives DEVTA GENSETS’ commitment to empowering communities and businesses with dependable power systems. Dev Prakash Rana's leadership ensures that the company maintains a strong focus on customer satisfaction, sustainability, and continuous improvement in all aspects of its operations.</p>
-        
-      </div>
-   
-
-</div>
-  
-
-<div className="mt-8">
-    <div className="flex justify-center mb-6">
-        <img
-          src={brahamrana}
-          alt="Mr. Braham Rana"
-          className="w-48 h-48 rounded-full object-cover shadow-lg"
-        />
-      </div>
-      <div className="text-center">
-        <h3 className="text-2xl font-bold text-white">Mr. Braham Rana</h3>
-        <p className="text-white text-lg mb-4">Managing Director</p>
-        <p className="text-white text-md mb-4">
-        Braham Rana is the Managing Director of Devta Gensets Private Limited, registered with the Ministry of Corporate Affairs under DIN 02805943. Based in North Delhi, India, he plays a pivotal role in overseeing the company’s operations and strategic direction. With a strong commitment to innovation and service excellence, Braham Rana has been instrumental in leading Devta Gensets to new heights, focusing on providing top-quality power solutions. Under his leadership, the company, with a paid-up capital of ₹1,840,000.00, continues to thrive in delivering reliable energy systems and maintaining a reputation for industry expertise and customer satisfaction.</p>
-        
-      </div>
-   
-
-</div>
-
-</div>
-
-
-
-      <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
-
-  <div className="font-extrabold text-4xl md:text-5xl text-blue-700 text-center mb-4"
-    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}>
- Our Customers
-  </div>
-
-  <div className="text-lg text-white text-center mb-8 max-w-2xl">
-    Discover the benefits of our services and how they can improve your life. 
-    Here are some key benefits that make us stand out.
-  </div>
-
-<div className="mt-4">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-    <img src={crausal1} alt="Gallery Image 1" className="w-full h-40 object-cover rounded-lg" />
-    <img src={crausal1} alt="Gallery Image 2" className="w-full h-40 object-cover rounded-lg" />
-    <img src={crausal1} alt="Gallery Image 3" className="w-full h-40 object-cover rounded-lg" />
-    <img src={crausal1} alt="Gallery Image 4" className="w-full h-40 object-cover rounded-lg" />
-    <img src={crausal1} alt="Gallery Image 5" className="w-full h-40 object-cover rounded-lg" />
-  </div>
-</div>
-</div>
-   <BusinessBook /> */}
     </div>
   );
 };

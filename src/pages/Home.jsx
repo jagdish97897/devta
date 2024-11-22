@@ -50,6 +50,8 @@ import { BusinessBook } from "../components/BusinessBook";
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { MissionVision } from "../components/MissionVision";
+import { AiOutlinePhone } from "react-icons/ai"; // Call Icon
+import { AiOutlineMail } from "react-icons/ai"; // Gmail Icon
 
 export const Home = () => {
   const images = [
@@ -158,27 +160,23 @@ export const Home = () => {
           </div>
         </div>
   </div>
+  <div className="fixed bottom-6 right-6 flex flex-col space-y-3 z-30">
+        {/* Call Button */}
+        <a
+          href="tel:+919999966177"
+          className="bg-blue-600 text-white rounded-full p-4 shadow-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 flex items-center justify-center"
+        >
+          <AiOutlinePhone className="w-8 h-8" />
+        </a>
 
-  {/* Floating Call Button */}
-  <a
-    href="tel:+919999966177"
-    className="fixed bottom-6 right-6 bg-blue-600 text-white rounded-full p-4 shadow-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 z-30"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      className="w-6 h-6"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        d="M3 10c0-3.866 3.134-7 7-7s7 3.134 7 7-3.134 7-7 7-7-3.134-7-7zm2 0a5 5 0 0110 0m-4.5 1.086l-2.5 2.5m0 0L8.5 14M12 12V8"
-      />
-    </svg>
-  </a>
+        <a
+          href="mailto:devtagensets@rediffmail.com"
+          className="bg-red-600 text-white rounded-full p-4 shadow-lg hover:bg-red-700 focus:ring-2 focus:ring-red-500 focus:ring-offset-2 flex items-center justify-center"
+        >
+          <AiOutlineMail className="w-8 h-8" />
+        </a>
+      </div>
+      
   <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
         {/* Heading */}
         <div
@@ -423,7 +421,7 @@ export const Home = () => {
 
         {/* Subheading Text */}
         <div className="text-lg text-white text-center mb-8 max-w-2xl">
-          Meet our leader, Braham Rana, driving innovation at Devta Gensets. Discover the benefits of our services and how they can make a positive impact on your life.
+          Meet our leader, Braham Rana & Dev Prakash Rana, driving innovation at Devta Gensets. Discover the benefits of our services and how they can make a positive impact on your life.
         </div>
 
         {/* Braham Rana Section */}
@@ -457,7 +455,7 @@ export const Home = () => {
             <h3 className="text-2xl font-bold text-white">Mr. Dev Prakash Rana</h3>
             <p className="text-white text-lg mb-2">Director</p>
             <p className="text-white text-md leading-relaxed line-clamp-7">
-              Dev Rana is the Director of DEVTA GENSETS PRIVATE LIMITED, bringing visionary leadership and extensive expertise in the power solutions industry. Under his guidance, the company has grown to provide reliable, high-quality energy solutions. His dedication to innovation and operational excellence drives DEVTA GENSETS’ commitment to empowering communities and businesses with dependable power systems. Dev Prakash Rana's leadership ensures that the company maintains a strong focus on customer satisfaction, sustainability, and continuous improvement in all aspects of its operations.
+              Dev Prakash Rana is the Director of DEVTA GENSETS PRIVATE LIMITED, bringing visionary leadership and extensive expertise in the power solutions industry. Under his guidance, the company has grown to provide reliable, high-quality energy solutions. His dedication to innovation and operational excellence drives DEVTA GENSETS’ commitment to empowering communities and businesses with dependable power systems. Dev Prakash Rana's leadership ensures that the company maintains a strong focus on customer satisfaction, sustainability, and continuous improvement in all aspects of its operations.
             </p>
           </div>
         </div>
