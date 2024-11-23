@@ -23,13 +23,15 @@ import brahamrana from "../resource/brahamrana.png";
 import logoabout4 from "../resource/logoabout4.png";
 import logoabout3 from "../resource/logoabout3.png";
 import logoabout5 from "../resource/logoabout5.png";
+import logoabout6 from "../resource/logoabout6.png";
 import dmrc from "../resource/dmrc images.jpg";
 import coconstructionSite from "../resource/construction_sites.jpeg";
 import factoryImage from "../resource/factory image.jpg";
 import mall from "../resource/mall.jpg";
 import hospital from "../resource/hospital.jpg";
 import braham from "../resource/braham.jpg";
-
+import banquet from "../resource/banquet.png";
+import { FaCircle } from 'react-icons/fa';
 
 import pusparaj from "../resource/pusparaj.png";
 
@@ -114,10 +116,10 @@ export const AboutUs = () => {
 </div>
 
 
+
       <div className="bg-black py-12 px-6">
       {/* Container */}
       <div className="max-w-7xl mx-auto text-center">
-
 
 
         {/* Image and text section */}
@@ -139,25 +141,41 @@ export const AboutUs = () => {
 
             <ul className="space-y-4 text-white">
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Tailored Solutions: We understand that every client’s power needs are different, which is why we provide customized solutions that fit your specific requirements.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Tailored Solutions:We provide customized IT and digital services, ensuring that every solution fits your business needs.
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Top Brands: We partner with global leaders in power generation technology, ensuring you have access to the most reliable, cutting-edge products available in the market.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Top Brands: We partner with global leaders in power generation technology, ensuring you have access to the most reliable, cutting-edge products available in the market.
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Nationwide Service: No matter where your business is located, we are equipped to provide our services across India, with quick turnaround times and local support.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Nationwide Service: No matter where your business is located, we are equipped to provide our services across India, with quick turnaround times and local support.
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Customer-Centric Approach: Our clients are our top priority. We pride ourselves on being responsive, attentive, and committed to delivering the highest level of customer satisfaction.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Customer-Centric Approach: Our clients are our top priority. We pride ourselves on being responsive, attentive, and committed to delivering the highest level of customer satisfaction.
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Sustainability Focus: As part of our commitment to a sustainable future, we offer energy-efficient generators and power solutions that help reduce environmental impact.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Sustainability Focus: As part of our commitment to a sustainable future, we offer energy-efficient generators and power solutions that help reduce environmental impact.
             </li>
+
+
      
           </ul>
 
@@ -183,36 +201,58 @@ export const AboutUs = () => {
 
             <ul className="space-y-4 text-white">
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Manufacturing and Industrial Facilities
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Manufacturing and Industrial Facilities
             </li>
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Healthcare and Hospitals
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Healthcare and Hospitals
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Telecommunications and Data Centers
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+   Telecommunications and Data Centers
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Construction and Infrastructure
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+  Construction and Infrastructure
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Commercial Real Estate
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+ Commercial Real Estate
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Agriculture
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+  Agriculture
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Residential Properties
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+ Residential Properties
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Events and Temporary Power Needs
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+   Events and Temporary Power Needs
             </li>
           </ul>
 
@@ -221,7 +261,7 @@ export const AboutUs = () => {
           {/* Image (Right Side) */}
           <div className="text-center">
             <img
-              src={logoabout4}
+              src={logoabout6}
               alt="Devta Gensets"
               className="rounded-lg shadow-lg"
             />
@@ -256,25 +296,40 @@ export const AboutUs = () => {
 
             <ul className="space-y-4 text-white">
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Customer-Centric Approach: Our customers are our top priority. We listen to their needs, understand their challenges, and offer customized solutions that align with their specific requirements. Our success is measured by the success of our clients.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Customer-Centric Approach: Our customers are our top priority. We listen to their needs, understand their challenges, and offer customized solutions that align with their specific requirements. Our success is measured by the success of our clients.
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Integrity and Trust: We believe in doing business with integrity. Transparency and honesty are the cornerstones of our relationships with clients, partners, and employees.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+       Integrity and Trust: We believe in doing business with integrity. Transparency and honesty are the cornerstones of our relationships with clients, partners, and employees.
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Excellence in Execution: We strive for perfection in every project we undertake, from the initial consultation to the final installation and beyond. Our team is dedicated to delivering solutions that consistently meet the highest standards of quality and performance.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+       Excellence in Execution: We strive for perfection in every project we undertake, from the initial consultation to the final installation and beyond. Our team is dedicated to delivering solutions that consistently meet the highest standards of quality and performance.
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Sustainability: We are committed to protecting the environment. By promoting energy-efficient and sustainable power solutions, we aim to reduce carbon footprints and contribute to a greener planet.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Sustainability: We are committed to protecting the environment. By promoting energy-efficient and sustainable power solutions, we aim to reduce carbon footprints and contribute to a greener planet.
             </li>
+
             <li className="flex items-center">
-              <span className="bg-blue-500 h-3 w-3 rounded-full mr-3"></span>
-              Continuous Improvement: We are dedicated to learning, evolving, and innovating. Through ongoing research, development, and training, we ensure that our team stays ahead of industry trends and advancements.
+            <span className="mr-3">
+        <FaCircle className="text-blue-500" />
+      </span>
+      Continuous Improvement: We are dedicated to learning, evolving, and innovating. Through ongoing research, development, and training, we ensure that our team stays ahead of industry trends and advancements.
             </li>
+
           </ul>
           </div>
         </div>
@@ -346,21 +401,21 @@ export const AboutUs = () => {
         </div>
 
        
-        <div className="m-16 mt-4 mb-4">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        <div className="m-16 mt-4 mb-4 max-w-screen-xl mx-auto">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
     <img 
       src={coconstructionSite} 
-      alt="Customer Image 2" 
+      alt="Customer Image 1" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
       src={factoryImage} 
-      alt="Customer Image 3" 
+      alt="Customer Image 2" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
       src={dmrc} 
-      alt="Customer Image 1" 
+      alt="Customer Image 3" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
@@ -371,6 +426,11 @@ export const AboutUs = () => {
     <img 
       src={hospital} 
       alt="Customer Image 5" 
+      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+    />
+    <img 
+      src={banquet} 
+      alt="Customer Image 6" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
   </div>

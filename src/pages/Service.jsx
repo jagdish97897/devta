@@ -47,7 +47,7 @@ import coconstructionSite from "../resource/construction_sites.jpeg";
 import factoryImage from "../resource/factory image.jpg";
 import mall from "../resource/mall.jpg";
 import hospital from "../resource/hospital.jpg";
-
+import banquet from "../resource/banquet.png";
 
 export const Service = () => {
 
@@ -243,21 +243,21 @@ export const Service = () => {
         </div>
 
        
-        <div className="m-16 mt-4 mb-4">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        <div className="m-16 mt-4 mb-4 max-w-screen-xl mx-auto">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
     <img 
       src={coconstructionSite} 
-      alt="Customer Image 2" 
+      alt="Customer Image 1" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
       src={factoryImage} 
-      alt="Customer Image 3" 
+      alt="Customer Image 2" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
       src={dmrc} 
-      alt="Customer Image 1" 
+      alt="Customer Image 3" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
@@ -270,8 +270,14 @@ export const Service = () => {
       alt="Customer Image 5" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
+    <img 
+      src={banquet} 
+      alt="Customer Image 6" 
+      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+    />
   </div>
 </div>
+
       </div>
 
       <BusinessBook />

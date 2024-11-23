@@ -38,6 +38,7 @@ import pusparaj from "../resource/pusparaj.png";
 import devrana from "../resource/devrana.png";
 import braham from "../resource/braham.jpg";
 import devprakash from "../resource/devprakash.jpg";
+import banquet from "../resource/banquet.png";
 import brahamrana from "../resource/brahamrana.png";
 
 
@@ -198,86 +199,104 @@ export const Home = () => {
           ))}
         </div>
       </div>
+      
 
+    <div className="flex flex-col min-h-screen w-full justify-around items-center py-6 px-4 bg-black">
+  {/* Heading */}
+  <div
+    className="font-extrabold text-4xl md:text-5xl text-blue-500 text-center mb-6"
+    style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}
+  >
+    Our Services
+  </div>
 
-      <div className="flex flex-col min-h-screen w-full justify-around items-center py-2 px-4 bg-black">
-        {/* Heading */}
-        <div
-          className="font-extrabold text-4xl md:text-5xl text-blue-700 text-center mb-2"
-          style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.8)" }}
-        >
-          Our Services
-        </div>
+  {/* Subheading */}
+  <div className="text-lg text-gray-200 text-center mb-8 max-w-2xl sm:mb-6">
+    Discover our range of services tailored to meet your energy needs. Whether you're looking to rent, buy, sell, or maintain power solutions, we have options for everyone.
+  </div>
 
-        {/* Subheading */}
-        <div className="text-lg text-white text-center mb-8 max-w-2xl sm:mb-4">
-          Discover our range of services tailored to meet your energy needs. Whether you're looking to rent, buy, or sell power solutions, we have options for everyone.
-        </div>
+  {/* Rent, Buy, Sell, Maintenance Sections */}
+  <div className="flex flex-wrap justify-center gap-8 w-full px-6 max-w-screen-xl">
+    {/* Rent Section */}
+    <div
+      className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+      style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
+    >
+      <h3 className="font-bold text-xl mb-4 text-blue-500">Rent</h3>
+      <p className="text-gray-700 mb-4">
+        Affordable generator rentals for every need. From construction sites to events, we provide reliable power solutions ranging from 125 kVA to 2500 kVA. Enjoy flexible rental terms and 24/7 service.
+      </p>
+      <p className="font-semibold">Top Brands:</p>
+      <ul className="list-disc list-inside text-gray-700">
+        <li>Caterpillar</li>
+        <li>Cummins</li>
+        <li>Kirloskar</li>
+      </ul>
+    </div>
 
-        {/* Rent, Buy, Sell Sections */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 m-16 mt-4">
+    {/* Buy Section */}
+    <div
+      className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+      style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
+    >
+      <h3 className="font-bold text-xl mb-4 text-blue-500">Buy</h3>
+      <p className="text-gray-700 mb-4">
+        Invest in long-term power solutions with our range of diesel and gas generators. Ideal for industrial, commercial, and residential use, our generators come with installation and post-purchase support.
+      </p>
+      <p className="font-semibold">Featured Products:</p>
+      <ul className="list-disc list-inside text-gray-700">
+        <li>400 kVA Caterpillar Powerol Diesel Generator</li>
+        <li>1500 kVA Cummins Diesel Generator</li>
+      </ul>
+    </div>
 
-          {/* Rent Section */}
-          <div
-            className="bg-white p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl "
-            style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
-          >
-            <h3 className="font-bold text-xl mb-4 text-blue-500">Rent</h3>
-            <p className="text-gray-700 mb-4">
-              Affordable generator rentals for every need. From construction sites to events, we provide reliable power solutions ranging from 125 kVA to 2500 kVA. Enjoy flexible rental terms and 24/7 service.
-            </p>
-            <p className="font-semibold">Top Brands:</p>
-            <ul className="list-disc list-inside text-gray-700">
-              <li>Mahindra</li>
-              <li>Cummins</li>
-              <li>Kirloskar</li>
-            </ul>
-          </div>
+    {/* Sell Section */}
+    <div
+      className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+      style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
+    >
+      <h3 className="font-bold text-xl mb-4 text-blue-500">Sell</h3>
+      <p className="text-gray-700 mb-4">
+        Sell your used generators with ease. We provide a fair evaluation and transparent process, offering you the best value for your equipment while helping others access affordable power solutions.
+      </p>
+      <p className="font-semibold">Accepted Brands:</p>
+      <ul className="list-disc list-inside text-gray-700">
+        <li>Sudhir</li>
+        <li>Kirloskar</li>
+        <li>Caterpillar Powerol</li>
+      </ul>
+    </div>
 
-          {/* Buy Section */}
-          <div
-            className="bg-white p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
-            style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
-          >
-            <h3 className="font-bold text-xl mb-4 text-blue-500">Buy</h3>
-            <p className="text-gray-700 mb-4">
-              Invest in long-term power solutions with our range of diesel and gas generators. Ideal for industrial, commercial, and residential use, our generators come with installation and post-purchase support.
-            </p>
-            <p className="font-semibold">Featured Products:</p>
-            <ul className="list-disc list-inside text-gray-700">
-              <li>400 kVA Mahindra Powerol Diesel Generator</li>
-              <li>1500 kVA Cummins Diesel Generator</li>
-            </ul>
-          </div>
+    {/* Periodic Maintenance Section */}
+    <div
+      className="bg-white w-full sm:w-80 md:w-96 lg:w-[30%] xl:w-[28%] p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
+      style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
+    >
+      <h3 className="font-bold text-xl mb-4 text-blue-500">Periodic Maintenance</h3>
+      <p className="text-gray-700 mb-4">
+        Keep your power solutions running efficiently with our periodic maintenance services. We offer scheduled check-ups, preventive maintenance, and emergency services to ensure your generators operate smoothly at all times.
+      </p>
+      <p className="font-semibold">Maintenance Services Include:</p>
+      <ul className="list-disc list-inside text-gray-700">
+        <li>Engine Diagnostics and Tune-Up</li>
+        <li>Fuel System Check</li>
+        <li>Oil and Filter Replacement</li>
+        <li>Cooling System Inspection</li>
+      </ul>
+    </div>
+  </div>
 
-          {/* Sell Section */}
-          <div
-            className="bg-white p-6 rounded-xl border-4 border-blue-200 hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl"
-            style={{ boxShadow: '0 10px 30px rgba(0, 0, 0, 0.5)' }}
-          >
-            <h3 className="font-bold text-xl mb-4 text-blue-500">Sell</h3>
-            <p className="text-gray-700 mb-4">
-              Sell your used generators with ease. We provide a fair evaluation and transparent process, offering you the best value for your equipment while helping others access affordable power solutions.
-            </p>
-            <p className="font-semibold">Accepted Brands:</p>
-            <ul className="list-disc list-inside text-gray-700">
-              <li>Sudhir</li>
-              <li>Kirloskar</li>
-              <li>Mahindra Powerol</li>
-            </ul>
-          </div>
-        </div>
+  {/* Explore More Button */}
+  <div className="flex justify-center mt-8">
+    <a
+      href="/"
+      className="bg-blue-700 text-white text-lg font-semibold py-3 px-6 rounded-md shadow hover:bg-yellow-400 transition duration-200 hover:scale-105"
+    >
+      Explore More
+    </a>
+  </div>
+</div>
 
-        {/* Explore More Button */}
-        <div className="flex justify-center mb-4">
-          <a
-            href="/"
-            className="bg-blue-700 text-white text-lg font-semibold py-3 px-6 rounded-md shadow hover:bg-yellow-400 transition duration-200 hover:scale-105"
-          >
-            Explore More
-          </a>
-        </div>
-      </div>
 
       {/* Key benefits section */}
       <div className="flex flex-col min-h-screen w-full justify-around items-center py-12 px-4 bg-black">
@@ -300,7 +319,7 @@ export const Home = () => {
               alt="Liquid Transportation"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">400 kVA Mahindra Powerol Diesel Generator</h4>
+            <h4 className="font-bold mb-2">400 kVA Caterpillar Powerol Diesel Generator</h4>
 
           </div>
 
@@ -337,7 +356,6 @@ export const Home = () => {
 
           </div>
 
-
           <div className="bg-white p-6 rounded-lg hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl">
             <img
               src={service6}
@@ -362,7 +380,7 @@ export const Home = () => {
               alt="Specialized Transport"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">810 kVA Sudhir Silent Diesel Generator </h4>
+            <h4 className="font-bold mb-2">810 kVA Caterpillar Diesel Generator </h4>
 
           </div>
           <div className="bg-white p-6 rounded-lg hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl">
@@ -371,7 +389,7 @@ export const Home = () => {
               alt="Specialized Transport"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">125 kVA Mahindra Powerol Gas Generator</h4>
+            <h4 className="font-bold mb-2">125 kVA Caterpillar Powerol Gas Generator</h4>
 
           </div>
           <div className="bg-white p-6 rounded-lg hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl">
@@ -380,7 +398,7 @@ export const Home = () => {
               alt="Specialized Transport"
               className="w-full h-40 object-cover mb-4 rounded-md sm:h-32 md:h-40 lg:h-48"
             />
-            <h4 className="font-bold mb-2">625 KVA Mahindra Powerol Diesel Generator</h4>
+            <h4 className="font-bold mb-2">625 KVA Caterpillar Powerol Diesel Generator</h4>
 
           </div>
           <div className="bg-white p-6 rounded-lg hover:border-blue-400 transition-transform duration-500 transform hover:scale-105 shadow-lg hover:shadow-2xl">
@@ -473,22 +491,21 @@ export const Home = () => {
           We take pride in serving a diverse group of customers who trust our services to enhance their work and life.
         </div>
 
-
-        <div className="m-16 mt-4 mb-4">
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        <div className="m-16 mt-4 mb-4 max-w-screen-xl mx-auto">
+  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
     <img 
       src={coconstructionSite} 
-      alt="Customer Image 2" 
+      alt="Customer Image 1" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
       src={factoryImage} 
-      alt="Customer Image 3" 
+      alt="Customer Image 2" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
       src={dmrc} 
-      alt="Customer Image 1" 
+      alt="Customer Image 3" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
     <img 
@@ -501,8 +518,14 @@ export const Home = () => {
       alt="Customer Image 5" 
       className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
     />
+    <img 
+      src={banquet} 
+      alt="Customer Image 6" 
+      className="w-full h-40 object-cover rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-lg"
+    />
   </div>
 </div>
+
 
 
       </div>

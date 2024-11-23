@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f676eeea.css",
-    "main.js": "/static/js/main.6a4531ae.js",
+    "main.css": "/static/css/main.4390c088.css",
+    "main.js": "/static/js/main.145bc492.js",
     "static/js/787.219025fc.chunk.js": "/static/js/787.219025fc.chunk.js",
     "static/media/DistributerFlex.png": "/static/media/DistributerFlex.4fbec9ce110e74bb91d6.png",
     "static/media/dev3.png": "/static/media/dev3.ae0f17d9e0383db276b0.png",
@@ -10,9 +10,11 @@
     "static/media/dev2.png": "/static/media/dev2.a5923b9118f5d25c37fb.png",
     "static/media/prodcuthero.png": "/static/media/prodcuthero.b39f74a9469d831dad3f.png",
     "static/media/crausal16.png": "/static/media/crausal16.0f38f0b55c02d87bf4e2.png",
+    "static/media/banquet.png": "/static/media/banquet.f6dd9c0e892feb975752.png",
     "static/media/logoabout4.png": "/static/media/logoabout4.53848874968117ea0d27.png",
     "static/media/crausal18.png": "/static/media/crausal18.31e419bcd0e5dc973c6b.png",
     "static/media/crausal17.png": "/static/media/crausal17.b83f26fe88be466addd5.png",
+    "static/media/logoabout6.png": "/static/media/logoabout6.73fbe2f14d49ba58985e.png",
     "static/media/logoabout3.png": "/static/media/logoabout3.87ba4871a287b0ac683f.png",
     "static/media/news_clipping.jpeg": "/static/media/news_clipping.34963cabdb7a4cfd1495.jpeg",
     "static/media/uttam.png": "/static/media/uttam.be1051501db2d72af675.png",
@@ -54,14 +56,14 @@
     "static/media/brahamrana.png": "/static/media/brahamrana.83f08d94a4182c5349b7.png",
     "static/media/factory image.jpg": "/static/media/factory image.4fb2fab819ce438cb200.jpg",
     "static/media/bike_main.png": "/static/media/bike_main.f3a8ca3e8d9e73ce8ca1.png",
-    "static/media/devtagensets1.png": "/static/media/devtagensets1.0e01e4b7d9cfdf6c1051.png",
+    "static/media/devtagensets2.png": "/static/media/devtagensets2.46181c9501c153278ba6.png",
     "index.html": "/index.html",
-    "main.f676eeea.css.map": "/static/css/main.f676eeea.css.map",
-    "main.6a4531ae.js.map": "/static/js/main.6a4531ae.js.map",
+    "main.4390c088.css.map": "/static/css/main.4390c088.css.map",
+    "main.145bc492.js.map": "/static/js/main.145bc492.js.map",
     "787.219025fc.chunk.js.map": "/static/js/787.219025fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f676eeea.css",
-    "static/js/main.6a4531ae.js"
+    "static/css/main.4390c088.css",
+    "static/js/main.145bc492.js"
   ]
 }

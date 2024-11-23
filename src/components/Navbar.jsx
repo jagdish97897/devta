@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPhoneAlt } from 'react-icons/fa';
 import { IoReorderThreeOutline } from 'react-icons/io5';
 import { Book } from './Book';
-import devtagensets from '../resource/devtagensets1.png';
+import devtagensets from '../resource/devtagensets2.png';
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);

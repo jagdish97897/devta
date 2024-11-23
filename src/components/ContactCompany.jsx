@@ -37,6 +37,9 @@ export const ContactCompany = () => {
                 </svg>
               </div>
               <div className="text-center md:text-left">
+              devtagensets@rediffmail.com
+              </div>
+              <div className="text-center md:text-left">
                 support@devtagensets.com
               </div>
             </div>
